@@ -7,21 +7,28 @@ namespace VehicleApp.Droid
     [Activity(Label = "VehicleApp", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
+        private ImageButton _addIcon;
+        private ListView _carList;
+        public VehicleRowCustomAdapter _vehicleListAdapter;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            // Set our view from the "main" layout resource
+            
             SetContentView(Resource.Layout.Main);
-
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.myButton);
-
-            button.Click += delegate { button.Text = $"{count++} clicks!"; };
+            _addIcon = FindViewById<ImageButton>(Resource.Id.AddIcon);
+            _addIcon.SetImageResource(Resource.Drawable.Other);
+            _addIcon.Click += delegate { StartActivity(typeof(AddNewVehicle)); };
+            _carList = FindViewById<ListView>(Resource.Id.MainListView);
+            //_carList.ItemClick += showVehicleDetails;
         }
-    }
+
+        public void ReloadData()
+        {
+            ReadAllData.Read(this);
+            _vehicleListAdapter = new VehicleRowCustomAdapter(this, AppData.vehicles);
+            _carList.Adapter = _vehicleListAdapter;
+        }
+    }    
 }
 

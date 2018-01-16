@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/AddVehicleLayout">
+  <Toolbar
+      p1:background="?android:attr/colorPrimary"
+      p1:layout_width="match_parent"
+      p1:layout_height="wrap_content"
+      p1:id="@+id/AddVehicleToolbar">
+    <ImageButton
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/BackButton" />
+    <TextView
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/AddVehicleHeader"
+        p1:layout_gravity="center"
+        p1:textAlignment="center" />
+  </Toolbar>
+  <RelativeLayout
+      p1:minWidth="25px"
+      p1:minHeight="25px"
+      p1:layout_width="match_parent"
+      p1:layout_height="match_parent"
+      p1:id="@+id/AddVehicleMainLayout"
+      p1:layout_below="@id/AddVehicleToolbar">
+    <TextView
+        p1:text="Make"
+        p1:textAppearance="?android:attr/textAppearanceMedium"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/vehicleMakeHeader" />
+    <EditText
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/vehicleMake"
+        p1:layout_below="@id/vehicleMakeHeader"
+        p1:layout_centerHorizontal="true" />
+  </RelativeLayout>
+</RelativeLayout>

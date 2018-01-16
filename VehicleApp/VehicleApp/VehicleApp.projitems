@@ -9,6 +9,10 @@
     <Import_RootNamespace>VehicleApp</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)MyClass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AppData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)InitialiseVehicleList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadWrite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VehicleDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VehicleList.cs" />
   </ItemGroup>
 </Project>
