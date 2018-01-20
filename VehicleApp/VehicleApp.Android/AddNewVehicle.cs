@@ -19,6 +19,8 @@ namespace VehicleApp.Droid
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.AddNewVehicleLayout);
+
+
         }
     }
 }
