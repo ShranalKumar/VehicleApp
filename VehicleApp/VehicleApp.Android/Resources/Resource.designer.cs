@@ -48,7 +48,10 @@ namespace VehicleApp.Droid
 			public const int ArrowBackIcon = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int Other = 2130837505;
+			public const int DoneIcon = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Other = 2130837506;
 			
 			static Drawable()
 			{
@@ -95,6 +98,78 @@ namespace VehicleApp.Droid
 			
 			// aapt resource value: 0x7f060022
 			public const int MainToolbar = 2131099682;
+			
+			// aapt resource value: 0x7f060027
+			public const int ViewVehicleDetailsBackButton = 2131099687;
+			
+			// aapt resource value: 0x7f06003c
+			public const int ViewVehicleDetailsButtonLayout = 2131099708;
+			
+			// aapt resource value: 0x7f060029
+			public const int ViewVehicleDetailsMainLayout = 2131099689;
+			
+			// aapt resource value: 0x7f06002a
+			public const int ViewVehicleDetailsMake = 2131099690;
+			
+			// aapt resource value: 0x7f06002b
+			public const int ViewVehicleDetailsMakeHeader = 2131099691;
+			
+			// aapt resource value: 0x7f06002c
+			public const int ViewVehicleDetailsModel = 2131099692;
+			
+			// aapt resource value: 0x7f06002d
+			public const int ViewVehicleDetailsModelHeader = 2131099693;
+			
+			// aapt resource value: 0x7f060036
+			public const int ViewVehicleDetailsNextService = 2131099702;
+			
+			// aapt resource value: 0x7f060037
+			public const int ViewVehicleDetailsNextServiceHeader = 2131099703;
+			
+			// aapt resource value: 0x7f060038
+			public const int ViewVehicleDetailsOdometer = 2131099704;
+			
+			// aapt resource value: 0x7f060039
+			public const int ViewVehicleDetailsOdometerHeader = 2131099705;
+			
+			// aapt resource value: 0x7f060030
+			public const int ViewVehicleDetailsRego = 2131099696;
+			
+			// aapt resource value: 0x7f060034
+			public const int ViewVehicleDetailsRegoDue = 2131099700;
+			
+			// aapt resource value: 0x7f060035
+			public const int ViewVehicleDetailsRegoDueHeader = 2131099701;
+			
+			// aapt resource value: 0x7f060031
+			public const int ViewVehicleDetailsRegoHeader = 2131099697;
+			
+			// aapt resource value: 0x7f060028
+			public const int ViewVehicleDetailsTitle = 2131099688;
+			
+			// aapt resource value: 0x7f060026
+			public const int ViewVehicleDetailsToolbar = 2131099686;
+			
+			// aapt resource value: 0x7f06003d
+			public const int ViewVehicleDetailsUpdateButton = 2131099709;
+			
+			// aapt resource value: 0x7f06003a
+			public const int ViewVehicleDetailsVINPlate = 2131099706;
+			
+			// aapt resource value: 0x7f06003b
+			public const int ViewVehicleDetailsVINPlateHeader = 2131099707;
+			
+			// aapt resource value: 0x7f060032
+			public const int ViewVehicleDetailsWOF = 2131099698;
+			
+			// aapt resource value: 0x7f060033
+			public const int ViewVehicleDetailsWOFHeader = 2131099699;
+			
+			// aapt resource value: 0x7f06002e
+			public const int ViewVehicleDetailsYear = 2131099694;
+			
+			// aapt resource value: 0x7f06002f
+			public const int ViewVehicleDetailsYearHeader = 2131099695;
 			
 			// aapt resource value: 0x7f060007
 			public const int vehicleMakeHeader = 2131099655;
@@ -195,6 +270,9 @@ namespace VehicleApp.Droid
 			
 			// aapt resource value: 0x7f040001
 			public const int Main = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int ViewVehicleDetailsLayout = 2130968578;
 			
 			static Layout()
 			{

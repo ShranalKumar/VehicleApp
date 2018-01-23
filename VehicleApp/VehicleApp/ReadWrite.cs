@@ -14,11 +14,11 @@ namespace VehicleApp
 
         public static void WriteData()
         {
-            AppData.vehicles = new List<VehicleList>();
+            //AppData.vehicles = new List<VehicleList>();
 
-            if (AppData.vehicles != null)
-                foreach (VehicleList any in AppData.vehicles)
-                    AppData.vehicles.Add(any);
+            //if (AppData.vehicles != null)
+            //    foreach (VehicleList any in AppData.vehicles)
+            //        AppData.vehicles.Add(any);
 
             string dataJson = JsonConvert.SerializeObject(AppData.vehicles, Formatting.Indented);
             File.WriteAllText(dataPath, dataJson);

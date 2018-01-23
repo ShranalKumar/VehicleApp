@@ -52,7 +52,8 @@
             <EditText
                 p1:id="@+id/vehicleMakeText"
                 p1:layout_width="match_parent"
-                p1:layout_height="wrap_content" />
+                p1:layout_height="wrap_content"
+                p1:imeOptions="actionNext"/>
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
@@ -71,7 +72,8 @@
             <EditText
                 p1:layout_width="match_parent"
                 p1:layout_height="wrap_content"
-                p1:id="@+id/vehicleModelText" />
+                p1:id="@+id/vehicleModelText"
+                p1:imeOptions="actionNext" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
@@ -90,7 +92,8 @@
             <EditText
                 p1:layout_width="match_parent"
                 p1:layout_height="wrap_content"
-                p1:id="@+id/vehicleYearText" />
+                p1:id="@+id/vehicleYearText"
+                p1:imeOptions="actionNext" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
@@ -109,7 +112,8 @@
             <EditText
                 p1:layout_width="match_parent"
                 p1:layout_height="wrap_content"
-                p1:id="@+id/vehicleRegoText" />
+                p1:id="@+id/vehicleRegoText"
+                p1:imeOptions="actionNext" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
@@ -129,7 +133,8 @@
                 p1:inputType="date"
                 p1:layout_width="match_parent"
                 p1:layout_height="wrap_content"
-                p1:id="@+id/vehicleWofText" />
+                p1:id="@+id/vehicleWofText"
+                p1:imeOptions="actionNext" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
@@ -149,7 +154,8 @@
                 p1:inputType="date"
                 p1:layout_width="match_parent"
                 p1:layout_height="wrap_content"
-                p1:id="@+id/vehicleRegoDueText" />
+                p1:id="@+id/vehicleRegoDueText"
+                p1:imeOptions="actionNext" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
@@ -169,7 +175,8 @@
                 p1:inputType="date"
                 p1:layout_width="match_parent"
                 p1:layout_height="wrap_content"
-                p1:id="@+id/vehicleNextServiceText" />
+                p1:id="@+id/vehicleNextServiceText"
+                p1:imeOptions="actionNext" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
@@ -188,7 +195,8 @@
             <EditText
                 p1:layout_width="match_parent"
                 p1:layout_height="wrap_content"
-                p1:id="@+id/vehicleOdometerText" />
+                p1:id="@+id/vehicleOdometerText"
+                p1:imeOptions="actionNext" />
         </LinearLayout>
         <LinearLayout
             p1:orientation="vertical"
@@ -207,7 +215,8 @@
             <EditText
                 p1:layout_width="match_parent"
                 p1:layout_height="wrap_content"
-                p1:id="@+id/vehicleVINPlateText" />
+                p1:id="@+id/vehicleVINPlateText"
+                p1:imeOptions="actionDone" />
         </LinearLayout>
     </RelativeLayout>
 </RelativeLayout>
