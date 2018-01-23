@@ -74,7 +74,7 @@ namespace VehicleApp.Droid
             AppData.vehicles.Add(newVehicleToAdd);
             ReadWrite.WriteData();
             ShowAddedDialog();
-            Finish();
+            MainActivity._vehicleListAdapter.NotifyDataSetChanged();
         }
 
         public void ShowAddedDialog()
@@ -82,7 +82,7 @@ namespace VehicleApp.Droid
             AlertDialog.Builder alert = new AlertDialog.Builder(this);
             alert.SetTitle("Vehicle Added!");
             alert.SetMessage("Your vehice has been added to the database.");
-            alert.SetNeutralButton("Okay", (senderAlert, eAlert) => { });
+            alert.SetNeutralButton("Okay", (senderAlert, eAlert) => { Finish(); });
             Dialog dialog = alert.Create();
             dialog.Show();
         }

@@ -11,7 +11,7 @@ namespace VehicleApp.Droid
     {
         private ImageButton _addIcon;
         private ListView _carList;
-        public VehicleRowCustomAdapter _vehicleListAdapter;
+        public static VehicleRowCustomAdapter _vehicleListAdapter;
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
