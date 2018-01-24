@@ -53,6 +53,9 @@ namespace VehicleApp.Droid
 			// aapt resource value: 0x7f020002
 			public const int Other = 2130837506;
 			
+			// aapt resource value: 0x7f020003
+			public const int SelectedAccountTick = 2130837507;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -102,8 +105,8 @@ namespace VehicleApp.Droid
 			// aapt resource value: 0x7f060027
 			public const int ViewVehicleDetailsBackButton = 2131099687;
 			
-			// aapt resource value: 0x7f06003c
-			public const int ViewVehicleDetailsButtonLayout = 2131099708;
+			// aapt resource value: 0x7f060045
+			public const int ViewVehicleDetailsButtonLayout = 2131099717;
 			
 			// aapt resource value: 0x7f060029
 			public const int ViewVehicleDetailsMainLayout = 2131099689;
@@ -115,34 +118,52 @@ namespace VehicleApp.Droid
 			public const int ViewVehicleDetailsMakeHeader = 2131099691;
 			
 			// aapt resource value: 0x7f06002c
-			public const int ViewVehicleDetailsModel = 2131099692;
+			public const int ViewVehicleDetailsMakeText = 2131099692;
 			
 			// aapt resource value: 0x7f06002d
-			public const int ViewVehicleDetailsModelHeader = 2131099693;
+			public const int ViewVehicleDetailsModel = 2131099693;
 			
-			// aapt resource value: 0x7f060036
-			public const int ViewVehicleDetailsNextService = 2131099702;
+			// aapt resource value: 0x7f06002e
+			public const int ViewVehicleDetailsModelHeader = 2131099694;
 			
-			// aapt resource value: 0x7f060037
-			public const int ViewVehicleDetailsNextServiceHeader = 2131099703;
+			// aapt resource value: 0x7f06002f
+			public const int ViewVehicleDetailsModelText = 2131099695;
 			
-			// aapt resource value: 0x7f060038
-			public const int ViewVehicleDetailsOdometer = 2131099704;
+			// aapt resource value: 0x7f06003c
+			public const int ViewVehicleDetailsNextService = 2131099708;
+			
+			// aapt resource value: 0x7f06003d
+			public const int ViewVehicleDetailsNextServiceHeader = 2131099709;
+			
+			// aapt resource value: 0x7f06003e
+			public const int ViewVehicleDetailsNextServiceText = 2131099710;
+			
+			// aapt resource value: 0x7f06003f
+			public const int ViewVehicleDetailsOdometer = 2131099711;
+			
+			// aapt resource value: 0x7f060040
+			public const int ViewVehicleDetailsOdometerHeader = 2131099712;
+			
+			// aapt resource value: 0x7f060041
+			public const int ViewVehicleDetailsOdometerText = 2131099713;
+			
+			// aapt resource value: 0x7f060033
+			public const int ViewVehicleDetailsRego = 2131099699;
 			
 			// aapt resource value: 0x7f060039
-			public const int ViewVehicleDetailsOdometerHeader = 2131099705;
+			public const int ViewVehicleDetailsRegoDue = 2131099705;
 			
-			// aapt resource value: 0x7f060030
-			public const int ViewVehicleDetailsRego = 2131099696;
+			// aapt resource value: 0x7f06003a
+			public const int ViewVehicleDetailsRegoDueHeader = 2131099706;
+			
+			// aapt resource value: 0x7f06003b
+			public const int ViewVehicleDetailsRegoDueText = 2131099707;
 			
 			// aapt resource value: 0x7f060034
-			public const int ViewVehicleDetailsRegoDue = 2131099700;
+			public const int ViewVehicleDetailsRegoHeader = 2131099700;
 			
 			// aapt resource value: 0x7f060035
-			public const int ViewVehicleDetailsRegoDueHeader = 2131099701;
-			
-			// aapt resource value: 0x7f060031
-			public const int ViewVehicleDetailsRegoHeader = 2131099697;
+			public const int ViewVehicleDetailsRegoText = 2131099701;
 			
 			// aapt resource value: 0x7f060028
 			public const int ViewVehicleDetailsTitle = 2131099688;
@@ -150,26 +171,35 @@ namespace VehicleApp.Droid
 			// aapt resource value: 0x7f060026
 			public const int ViewVehicleDetailsToolbar = 2131099686;
 			
-			// aapt resource value: 0x7f06003d
-			public const int ViewVehicleDetailsUpdateButton = 2131099709;
+			// aapt resource value: 0x7f060046
+			public const int ViewVehicleDetailsUpdateButton = 2131099718;
 			
-			// aapt resource value: 0x7f06003a
-			public const int ViewVehicleDetailsVINPlate = 2131099706;
+			// aapt resource value: 0x7f060042
+			public const int ViewVehicleDetailsVINPlate = 2131099714;
 			
-			// aapt resource value: 0x7f06003b
-			public const int ViewVehicleDetailsVINPlateHeader = 2131099707;
+			// aapt resource value: 0x7f060043
+			public const int ViewVehicleDetailsVINPlateHeader = 2131099715;
+			
+			// aapt resource value: 0x7f060044
+			public const int ViewVehicleDetailsVINPlateText = 2131099716;
+			
+			// aapt resource value: 0x7f060036
+			public const int ViewVehicleDetailsWOF = 2131099702;
+			
+			// aapt resource value: 0x7f060037
+			public const int ViewVehicleDetailsWOFHeader = 2131099703;
+			
+			// aapt resource value: 0x7f060038
+			public const int ViewVehicleDetailsWOFText = 2131099704;
+			
+			// aapt resource value: 0x7f060030
+			public const int ViewVehicleDetailsYear = 2131099696;
+			
+			// aapt resource value: 0x7f060031
+			public const int ViewVehicleDetailsYearHeader = 2131099697;
 			
 			// aapt resource value: 0x7f060032
-			public const int ViewVehicleDetailsWOF = 2131099698;
-			
-			// aapt resource value: 0x7f060033
-			public const int ViewVehicleDetailsWOFHeader = 2131099699;
-			
-			// aapt resource value: 0x7f06002e
-			public const int ViewVehicleDetailsYear = 2131099694;
-			
-			// aapt resource value: 0x7f06002f
-			public const int ViewVehicleDetailsYearHeader = 2131099695;
+			public const int ViewVehicleDetailsYearText = 2131099698;
 			
 			// aapt resource value: 0x7f060007
 			public const int vehicleMakeHeader = 2131099655;

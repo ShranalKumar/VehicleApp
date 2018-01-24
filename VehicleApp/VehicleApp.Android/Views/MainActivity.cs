@@ -3,10 +3,12 @@ using Android.Widget;
 using Android.OS;
 using System;
 using Java.Lang;
+using Android.Content;
+using Android.Content.PM;
 
 namespace VehicleApp.Droid
 {
-    [Activity(Label = "VehicleApp", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "VehicleApp", MainLauncher = true, Icon = "@mipmap/icon", ScreenOrientation = ScreenOrientation.Portrait)]
     public class MainActivity : Activity
     {
         private ImageButton _addIcon;
@@ -26,8 +28,15 @@ namespace VehicleApp.Droid
             _addIcon.Click += delegate { StartActivity(typeof(AddNewVehicle)); };
             ReloadData();
 
-            //_carList.ItemClick += showVehicleDetails;
+            _carList.ItemClick += showVehicleDetails;
             _carList.ItemLongClick += DeleteVehicleDetailsAlert;
+        }
+
+        private void showVehicleDetails(object sender, AdapterView.ItemClickEventArgs e)
+        {
+            Intent intent = new Intent(this, typeof(ShowVehicleDetails));
+            intent.PutExtra("Vehicle", e.Position);
+            StartActivity(intent);
         }
 
         public void DeleteVehicleDetailsAlert(object sender, AdapterView.ItemLongClickEventArgs e)
@@ -60,12 +69,6 @@ namespace VehicleApp.Droid
             _vehicleListAdapter = new VehicleRowCustomAdapter(this, AppData.vehicles);
             _carList.Adapter = _vehicleListAdapter;
         }
-
-        protected override void OnResume()
-        {
-            ReloadData();
-        }
-
     }    
 }
 

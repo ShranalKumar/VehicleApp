@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 using Android.App;
 using Android.Content;
+using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
 using Android.Views;
@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace VehicleApp.Droid
 {
-    [Activity(Label = "AddNewVehicle")]
+    [Activity(Label = "AddNewVehicle", ScreenOrientation = ScreenOrientation.Portrait)]
     public class AddNewVehicle : Activity
     {
         private ImageButton _addVehicleSaveButton;
@@ -48,7 +48,7 @@ namespace VehicleApp.Droid
             _vehicleVINPlateText = FindViewById<EditText>(Resource.Id.vehicleVINPlateText);
 
             _addVehicleSaveButton.SetImageResource(Resource.Drawable.DoneIcon);
-            _addVehicleBackButton.SetImageResource(Resource.Drawable.ArrowBackIcon);
+            _addVehicleBackButton.SetImageResource(Resource.Drawable.SelectedAccountTick);
             _addVehicleHeader.Text = "Add New Vehicle";
 
             _addVehicleSaveButton.Click += CreateVehicleInstance;

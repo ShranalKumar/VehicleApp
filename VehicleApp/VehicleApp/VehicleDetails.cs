@@ -12,7 +12,7 @@ namespace VehicleApp
         public string Rego { get; set; }
         public DateTime WofDueOn { get; set; }
         public DateTime RegoDueOn { get; set; }
-        public DateTime? NextService { get; set; }
+        public DateTime NextService { get; set; }
         public int OdometerReading { get; set; }
         public string VinPlateNumber { get; set; }
     }

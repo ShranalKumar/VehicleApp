@@ -16,7 +16,7 @@
             android:layout_gravity="left" />
         <TextView
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/ViewVehicleDetailsTitle"
             android:gravity="center" />
@@ -40,7 +40,15 @@
                 android:layout_height="match_parent"
                 android:id="@+id/ViewVehicleDetailsMakeHeader"
                 android:layout_gravity="left"
-                android:text="Make" />
+                android:text="Make"
+                android:layout_weight="1" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ViewVehicleDetailsMakeText"
+                android:gravity="right"
+                android:clickable="true" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -56,7 +64,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:id="@+id/ViewVehicleDetailsModelHeader"
-                android:layout_gravity="left" />
+                android:layout_gravity="left"
+                android:layout_weight="1" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ViewVehicleDetailsModelText"
+                android:gravity="right"
+                android:clickable="true" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -71,7 +87,15 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/ViewVehicleDetailsYearHeader" />
+                android:id="@+id/ViewVehicleDetailsYearHeader"
+                android:layout_weight="1" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ViewVehicleDetailsYearText"
+                android:gravity="right"
+                android:clickable="true" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -87,7 +111,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:id="@+id/ViewVehicleDetailsRegoHeader"
-                android:gravity="left" />
+                android:gravity="left"
+                android:layout_weight="1" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ViewVehicleDetailsRegoText"
+                android:gravity="right"
+                android:clickable="true" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -102,7 +134,15 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/ViewVehicleDetailsWOFHeader" />
+                android:id="@+id/ViewVehicleDetailsWOFHeader"
+                android:layout_weight="1" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ViewVehicleDetailsWOFText"
+                android:gravity="right"
+                android:clickable="true" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -117,7 +157,15 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/ViewVehicleDetailsRegoDueHeader" />
+                android:id="@+id/ViewVehicleDetailsRegoDueHeader"
+                android:layout_weight="1" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ViewVehicleDetailsRegoDueText"
+                android:gravity="right"
+                android:clickable="true" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -132,7 +180,14 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/ViewVehicleDetailsNextServiceHeader" />
+                android:id="@+id/ViewVehicleDetailsNextServiceHeader"
+                android:layout_weight="1" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ViewVehicleDetailsNextServiceText"
+                android:clickable="true" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -147,7 +202,14 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/ViewVehicleDetailsOdometerHeader" />
+                android:id="@+id/ViewVehicleDetailsOdometerHeader"
+                android:layout_weight="1" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ViewVehicleDetailsOdometerText"
+                android:clickable="true" />
         </LinearLayout>
         <LinearLayout
             android:orientation="horizontal"
@@ -162,7 +224,14 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:id="@+id/ViewVehicleDetailsVINPlateHeader" />
+                android:id="@+id/ViewVehicleDetailsVINPlateHeader"
+                android:layout_weight="1" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ViewVehicleDetailsVINPlateText"
+                android:clickable="true" />
         </LinearLayout>
     </LinearLayout>
     <LinearLayout
